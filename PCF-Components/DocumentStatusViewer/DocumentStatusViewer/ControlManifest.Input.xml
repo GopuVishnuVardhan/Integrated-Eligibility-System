@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="GVV" constructor="DocumentStatusViewer" version="1.0.0" display-name-key="DocumentStatusViewer" description-key="Visualizes which required documents are verified" control-type="standard" >
+    <external-service-usage enabled="false"></external-service-usage>
+    <property name="idStatus" display-name-key="ID Verified" description-key="Is ID verified?" of-type="TwoOptions" usage="bound" required="true" />
+    <property name="transcriptStatus" display-name-key="Transcript Verified" description-key="Are transcripts verified?" of-type="TwoOptions" usage="bound" required="true" />
+    <property name="incomeProofStatus" display-name-key="Income Proof Verified" description-key="Is income proof verified?" of-type="TwoOptions" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>

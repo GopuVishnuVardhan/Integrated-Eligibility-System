@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="GVV" constructor="ApprovalTimeline" version="1.0.0" display-name-key="ApprovalTimeline" description-key="Visualizes the lifecycle stages of an application" control-type="standard" >
+    <external-service-usage enabled="false"></external-service-usage>
+    <property name="currentStage" display-name-key="Current Stage" description-key="The integer representing the current stage (1-4)" of-type="Whole.None" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>

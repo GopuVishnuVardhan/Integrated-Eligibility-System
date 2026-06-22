@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="GVV" constructor="BudgetAllocator" version="1.0.0" display-name-key="BudgetAllocator" description-key="Visual slider for budget allocation" control-type="standard" >
+    <external-service-usage enabled="false"></external-service-usage>
+    <property name="totalAmount" display-name-key="Total Amount" description-key="Total approved amount to distribute" of-type="Currency" usage="bound" required="true" />
+    <property name="tuitionAlloc" display-name-key="Tuition Allocation" description-key="Amount for Tuition" of-type="Currency" usage="bound" required="true" />
+    <property name="housingAlloc" display-name-key="Housing Allocation" description-key="Amount for Housing" of-type="Currency" usage="bound" required="true" />
+    <property name="booksAlloc" display-name-key="Books Allocation" description-key="Amount for Books" of-type="Currency" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>

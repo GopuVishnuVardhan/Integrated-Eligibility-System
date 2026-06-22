@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="GVV" constructor="HouseholdIncomeGrid" version="1.0.0" display-name-key="HouseholdIncomeGrid" description-key="Inline grid for household members" control-type="standard" >
+    <external-service-usage enabled="false"></external-service-usage>
+    <property name="householdData" display-name-key="Household Data JSON" description-key="JSON array of household members" of-type="Multiple" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="GVV" constructor="EligibilityCalculator" version="1.0.0" display-name-key="EligibilityCalculator" description-key="Visualizes student eligibility based on income and household size" control-type="standard" >
+    <external-service-usage enabled="false"></external-service-usage>
+    <property name="householdIncome" display-name-key="Household Income" description-key="Total annual income" of-type="Currency" usage="bound" required="true" />
+    <property name="householdSize" display-name-key="Household Size" description-key="Number of members in household" of-type="Whole.None" usage="bound" required="true" />
+    <property name="requestedAmount" display-name-key="Requested Amount" description-key="Amount requested" of-type="Currency" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>
