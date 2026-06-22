@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities />
+  <Roles />
+  <Workflows />
+  <FieldSecurityProfiles />
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls>
+    <CustomControl Name="GVV.HouseholdIncomeGrid" Version="1.0.0.0" AllowGridPreview="0" ExcludeFromRecordSummary="0">
+      <parameters>
+        < type="" primary="1" />
+      </parameters>
+      <resources>
+        <code path="bundle.js" order="1" />
+      </resources>
+    </CustomControl>
+  </CustomControls>
+  <SolutionPluginAssemblies />
+  <EntityDataProviders />
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>
